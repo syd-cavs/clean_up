@@ -90,6 +90,33 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.jumbotron {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-radius: 60px;
+  text-align: center;
+  align-items: center;
+  border: 8px double #991208;
+  background-color:#8e979f;
+}
+
+.blender {
+  color: white;
+}
+
+.column {
+  flex: 50%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
